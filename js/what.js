@@ -115,7 +115,7 @@ function tg() {
 			$('#bad1').css('padding', '5px');
 			$("#coconu").css("color", "black");
 			$("#coconu")[0].innerHTML = "mathias has 20 since:"
-			folo = parseInt(-((finaldate.getTime() / 1000 - new Date().getTime() / 1000)));
+			folo = parseInt(-((finaldate.getTime() / 1000 - new Date("GMT+0100").getTime() / 1000)));
 			odometer.innerHTML = folo;
 			mathias_got_20()
 		}
@@ -126,7 +126,7 @@ function tg() {
 }
 function mathias_got_20(){
 	setInterval(() => {
-		folo = parseInt(-((finaldate.getTime() / 1000 - new Date().getTime() / 1000)));
+		folo = parseInt(-((finaldate.getTime() / 1000 - new Date("GMT+0100").getTime() / 1000)));
 		editsound(end, .75).play()
 		odometer.innerHTML = folo;
 	}, 1000);
