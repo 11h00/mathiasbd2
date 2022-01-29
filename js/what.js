@@ -11,7 +11,7 @@ var UPsound = new Audio("lesonn/up.mp3");
 
 var badtheme = false;
 
-let finaldate = new Date("Jan 29 2022 23:59:00")
+let finaldate = new Date("Jan 29 2022 23:59:00 GMT+0100")
 
 var santourianmathiasup = new Audio("lesonn/up.mp3");
 var santourianmathiasdown = new Audio("lesonn/down.mp3?1");
